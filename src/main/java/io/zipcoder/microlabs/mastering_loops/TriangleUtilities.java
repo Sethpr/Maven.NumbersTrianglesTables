@@ -5,7 +5,7 @@ public class TriangleUtilities {
     public static String getTriangle(int numberOfRows) {
         StringBuilder tri = new StringBuilder();
         System.out.println(numberOfRows);
-        int max = numberOfRows-1;// IDK if the -1 is proper here but it matches the expected output. the values passed in are one higher than the number of rows the expected values have
+        int max = numberOfRows-1;// IDK if the -1 is proper here, but it matches the expected output. the values passed in are one higher than the number of rows the expected values have
         for(int i = 0; i < max; i++){
             tri.append("*".repeat(i+1) + "\n");
         }
